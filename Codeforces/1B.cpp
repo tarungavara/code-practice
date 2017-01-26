@@ -1,21 +1,21 @@
 #include<iostream>
-#include<cstring>
+#include<string>
 
 using namespace std;
-void translateRxCx(char str[], int i)
+void translateRxCx(string str, int i)
 {
-
+  cout << str << endl;
 }
 
-void translateBCxx(char str[])
+void translateBCxx(string str)
 {
-
+  cout << str << endl;
 }
 
 int main()
 {
   int t, i;
-  char str[100];
+  string str;
   cin >> t;
   for (; t>0; t--)
   {
